@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Puneet Divedi | Data Analyst Portfolio</title>
   <meta name="description" content="Business-focused data analyst specializing in marketing analytics, KPI development, and dashboarding.">
-  <meta name="theme-color" content="#f05a28">
+  <meta name="theme-color" content="#0d0c1d">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="page-gradient" aria-hidden="true"></div>
+  <div class="ambient" aria-hidden="true"></div>
 
   <header class="site-header">
     <nav class="nav">
@@ -20,69 +20,85 @@
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
         <a href="#education">Education</a>
         <a href="#contact">Contact</a>
       </div>
-      <a class="btn small" href="mailto:sd9501242@gmail.com">Lets talk</a>
+      <div class="nav-cta">
+        <a class="btn ghost" href="mailto:sd9501242@gmail.com">Email</a>
+        <a class="btn primary" href="#projects">See work</a>
+      </div>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
       <div class="hero-copy reveal">
-        <p class="eyebrow">Data Analyst</p>
-        <h1>Business and marketing analytics with clean data, sharp KPIs, and dashboards that drive decisions.</h1>
+        <p class="eyebrow">Data Analyst | Business and Marketing Analytics</p>
+        <h1>Dashboards and KPI systems that turn messy data into decisions.</h1>
         <p class="lead">
           Business-focused Data Analyst with 1+ year of experience in analytics, reporting, and dashboarding.
-          Skilled in translating unstructured business requirements into analytical strategies and actionable insights
-          using Python, SQL, Excel, and BI tools. Strong in KPI development, automation, stakeholder communication,
-          and performance measurement. Interested in marketing analytics, digital media analytics, and customer behavior analysis.
+          I translate unstructured business questions into analytical strategies using Python, SQL, Excel, and BI tools.
+          Strong in KPI development, automation, stakeholder communication, and performance measurement.
         </p>
-        <div class="contact-row">
-          <a href="mailto:sd9501242@gmail.com">sd9501242@gmail.com</a>
-          <span class="divider">|</span>
-          <a href="tel:8837582715">8837582715</a>
-          <span class="divider">|</span>
-          <a href="https://linkedin.com/in/puneetdivedi" target="_blank" rel="noreferrer">LinkedIn</a>
-          <span class="divider">|</span>
-          <span class="meta">Hyderabad, India</span>
-        </div>
         <div class="hero-actions">
-          <a class="btn primary" href="mailto:sd9501242@gmail.com">Email me</a>
-          <a class="btn ghost" href="#projects">View projects</a>
+          <a class="btn primary" href="mailto:sd9501242@gmail.com">Hire Puneet</a>
+          <a class="btn ghost" href="https://linkedin.com/in/puneetdivedi" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+        <div class="hero-meta">
+          <span>Hyderabad, India</span>
+          <span>sd9501242@gmail.com</span>
+          <span>8837582715</span>
         </div>
       </div>
-      <div class="hero-stats reveal">
-        <article class="stat-card">
-          <p class="stat-label">Impact</p>
-          <p class="stat-value">~40% reduction</p>
-          <p class="stat-desc">Manual effort saved through automation and clean data workflows.</p>
-        </article>
-        <article class="stat-card">
-          <p class="stat-label">Experience</p>
-          <p class="stat-value">1+ year</p>
-          <p class="stat-desc">Analytics, KPI development, and stakeholder reporting.</p>
-        </article>
-        <article class="stat-card">
-          <p class="stat-label">Dashboarding</p>
-          <p class="stat-value">Power BI + Streamlit</p>
-          <p class="stat-desc">Interactive views for leadership and operations teams.</p>
-        </article>
+      <div class="hero-panel reveal">
+        <div class="panel-card">
+          <p class="panel-title">Impact snapshot</p>
+          <div class="panel-metrics">
+            <div>
+              <p class="metric-value" data-count="40">0</p>
+              <p class="metric-label">Manual effort reduced</p>
+            </div>
+            <div>
+              <p class="metric-value" data-count="12">0</p>
+              <p class="metric-label">KPIs tracked weekly</p>
+            </div>
+            <div>
+              <p class="metric-value" data-count="3">0</p>
+              <p class="metric-label">Dashboards delivered</p>
+            </div>
+          </div>
+          <div class="mini-chart" aria-hidden="true">
+            <span style="height: 40%"></span>
+            <span style="height: 65%"></span>
+            <span style="height: 35%"></span>
+            <span style="height: 85%"></span>
+            <span style="height: 55%"></span>
+          </div>
+        </div>
+        <div class="panel-card subtle">
+          <p class="panel-title">Focus areas</p>
+          <div class="pill-row">
+            <span>Marketing analytics</span>
+            <span>Digital media performance</span>
+            <span>Customer behavior</span>
+            <span>Automation</span>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="about" class="section reveal">
       <div class="section-head">
         <p class="eyebrow">About</p>
-        <h2>Analytical thinking with a business-first lens.</h2>
+        <h2>Business-first analytics with a bias for clarity.</h2>
         <p>
-          I help teams turn scattered data into clear decisions by aligning KPIs with business goals,
-          automating reporting, and communicating insights in plain language.
+          I help teams move faster by aligning KPIs to business goals, automating reporting, and
+          explaining insights in plain language. I care about decision quality, not just dashboards.
         </p>
       </div>
-      <div class="focus-grid">
+      <div class="highlight-grid">
         <article class="card">
           <h3>KPI strategy</h3>
           <p>Translate business questions into measurable frameworks and performance indicators.</p>
@@ -96,8 +112,7 @@
           <p>Reduce manual work with Python pipelines, validation rules, and repeatable reports.</p>
         </article>
       </div>
-      <div class="style-card">
-        <h3>Leadership and work style</h3>
+      <div class="banner-card">
         <p>Enterprise mindset, problem-solving, fast execution, collaboration across teams, clear communication, learning agility, integrity.</p>
       </div>
     </section>
@@ -105,7 +120,7 @@
     <section id="skills" class="section reveal">
       <div class="section-head">
         <p class="eyebrow">Skills</p>
-        <h2>Tools and methods I use daily.</h2>
+        <h2>Toolbox built for insight and speed.</h2>
       </div>
       <div class="skills-grid">
         <article class="card">
@@ -113,8 +128,8 @@
           <p>Business analytics, marketing analytics, digital media analytics, KPI development, performance measurement, trend and variance analysis, insight generation.</p>
         </article>
         <article class="card">
-          <h3>Programming</h3>
-          <p>Python, Pandas, NumPy, automation workflows.</p>
+          <h3>Programming and automation</h3>
+          <p>Python, Pandas, NumPy, automation workflows, ETL concepts, data validation.</p>
         </article>
         <article class="card">
           <h3>Querying and databases</h3>
@@ -140,35 +155,77 @@
         <span class="chip">Agile</span>
         <span class="chip">Documentation</span>
         <span class="chip">Stakeholder communication</span>
-        <span class="chip">ETL concepts</span>
-        <span class="chip">Data validation</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="section-head">
+        <p class="eyebrow">Projects</p>
+        <h2>Interactive, KPI-driven work.</h2>
+        <p>Filter by focus area to see the type of impact delivered.</p>
+      </div>
+      <div class="filter-row" role="tablist" aria-label="Project filters">
+        <button class="filter-btn active" data-filter="all" role="tab">All</button>
+        <button class="filter-btn" data-filter="kpi" role="tab">KPI</button>
+        <button class="filter-btn" data-filter="automation" role="tab">Automation</button>
+        <button class="filter-btn" data-filter="dashboard" role="tab">Dashboarding</button>
+        <button class="filter-btn" data-filter="marketing" role="tab">Marketing</button>
+        <button class="filter-btn" data-filter="quality" role="tab">Data quality</button>
+      </div>
+      <div class="projects-grid" id="projectGrid">
+        <article class="card project-card" data-tags="kpi automation dashboard">
+          <h3>Operational Performance and KPI Analytics Dashboard</h3>
+          <p>Built KPI dashboards using Python, SQL, Power BI, and Streamlit to track operational performance and process gaps.</p>
+          <div class="project-meta">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Power BI</span>
+            <span>Streamlit</span>
+          </div>
+        </article>
+        <article class="card project-card" data-tags="kpi marketing dashboard">
+          <h3>Sales Performance and Revenue Analysis</h3>
+          <p>Analyzed sales data to identify growth trends, seasonality, and regional performance with revenue and conversion KPIs.</p>
+          <div class="project-meta">
+            <span>SQL</span>
+            <span>Revenue metrics</span>
+            <span>Management reporting</span>
+          </div>
+        </article>
+        <article class="card project-card" data-tags="quality automation">
+          <h3>Customer Data Quality and Enrichment Analysis</h3>
+          <p>Identified missing values, duplicates, and inconsistencies, then built validation rules and monitoring reports.</p>
+          <div class="project-meta">
+            <span>Data quality</span>
+            <span>Validation rules</span>
+            <span>Automation</span>
+          </div>
+        </article>
       </div>
     </section>
 
     <section id="experience" class="section reveal">
       <div class="section-head">
         <p class="eyebrow">Experience</p>
-        <h2>Recent roles and impact.</h2>
+        <h2>Recent roles with measurable outcomes.</h2>
       </div>
       <div class="timeline">
-        <article class="role">
-          <div class="role-title">
+        <article class="timeline-card">
+          <div class="timeline-title">
             <h3>Data Analyst (Apprenticeship)</h3>
-            <p class="meta">Bosch Global Software Technologies | Jan 2025 - Present</p>
+            <p>Bosch Global Software Technologies | Jan 2025 - Present</p>
           </div>
           <ul>
             <li>Partnered with stakeholders to translate business questions into analytical dashboards and KPI frameworks.</li>
             <li>Analyzed large datasets using EDA to identify trends, anomalies, and performance gaps.</li>
-            <li>Defined and monitored KPIs to support decision making on performance improvement initiatives.</li>
             <li>Built interactive dashboards using Power BI, Streamlit, and Plotly for leadership and operations teams.</li>
             <li>Automated data preprocessing and reporting workflows in Python, reducing manual effort by ~40%.</li>
-            <li>Delivered actionable insights with quick turnaround to support multiple concurrent requests.</li>
           </ul>
         </article>
-        <article class="role">
-          <div class="role-title">
+        <article class="timeline-card">
+          <div class="timeline-title">
             <h3>Service Engineer</h3>
-            <p class="meta">Modern Business Equipments and Services Pvt. Ltd. | May 2024 - Dec 2024</p>
+            <p>Modern Business Equipments and Services Pvt. Ltd. | May 2024 - Dec 2024</p>
           </div>
           <ul>
             <li>Analyzed operational data and machine behavior to identify recurring issues and performance deviations.</li>
@@ -176,40 +233,16 @@
             <li>Worked with field teams to provide business context and improve insight quality.</li>
           </ul>
         </article>
-        <article class="role">
-          <div class="role-title">
+        <article class="timeline-card">
+          <div class="timeline-title">
             <h3>Technical Support Specialist</h3>
-            <p class="meta">eClerx | Jan 2024 - Apr 2024</p>
+            <p>eClerx | Jan 2024 - Apr 2024</p>
           </div>
           <ul>
             <li>Analyzed backend logs and system metrics to identify trends and recurring problems.</li>
             <li>Maintained accurate datasets and supported data-driven issue resolution.</li>
             <li>Strengthened analytical documentation and communication skills.</li>
           </ul>
-        </article>
-      </div>
-    </section>
-
-    <section id="projects" class="section reveal">
-      <div class="section-head">
-        <p class="eyebrow">Projects</p>
-        <h2>Selected work with measurable outcomes.</h2>
-      </div>
-      <div class="projects-grid">
-        <article class="card project">
-          <h3>Operational Performance and KPI Analytics Dashboard</h3>
-          <p>Built KPI dashboards using Python, SQL, Power BI, and Streamlit to track operational performance and process gaps.</p>
-          <p class="meta">Automation, KPI design, dashboarding</p>
-        </article>
-        <article class="card project">
-          <h3>Sales Performance and Revenue Analysis</h3>
-          <p>Analyzed sales data to identify growth trends, seasonality, and regional performance with revenue and conversion KPIs.</p>
-          <p class="meta">SQL analysis, revenue metrics, management reporting</p>
-        </article>
-        <article class="card project">
-          <h3>Customer Data Quality and Enrichment Analysis</h3>
-          <p>Identified missing values, duplicates, and inconsistencies, then built validation rules and monitoring reports.</p>
-          <p class="meta">Data quality, validation rules, automation</p>
         </article>
       </div>
     </section>
@@ -236,8 +269,10 @@
 
     <section id="contact" class="section reveal">
       <div class="cta-card">
-        <h2>Lets build insights that move the business.</h2>
-        <p>Open to data analyst roles focused on business, marketing, and customer analytics. Lets talk about how I can help your team.</p>
+        <div>
+          <h2>Ready to build decision-grade analytics.</h2>
+          <p>Open to data analyst roles focused on business, marketing, and customer analytics.</p>
+        </div>
         <div class="cta-actions">
           <a class="btn primary" href="mailto:sd9501242@gmail.com">Email me</a>
           <a class="btn ghost" href="https://linkedin.com/in/puneetdivedi" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
