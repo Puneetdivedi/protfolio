@@ -48,15 +48,16 @@ const counterObserver = new IntersectionObserver(
 
       const el = entry.target;
       const target = Number(el.dataset.count || 0);
+      const unit = el.dataset.unit || "";
       let current = 0;
       const step = Math.max(1, Math.round(target / 40));
 
       const tick = () => {
         current += step;
         if (current >= target) {
-          el.textContent = `${target}%`;
+          el.textContent = `${target}${unit}`;
         } else {
-          el.textContent = `${current}%`;
+          el.textContent = `${current}${unit}`;
           requestAnimationFrame(tick);
         }
       };

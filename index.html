@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Puneet Divedi | Data Analyst Portfolio</title>
   <meta name="description" content="Business-focused data analyst specializing in marketing analytics, KPI development, and dashboarding.">
-  <meta name="theme-color" content="#0d0c1d">
+  <meta name="theme-color" content="#0b0f17">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,7 +16,10 @@
 
   <header class="site-header">
     <nav class="nav">
-      <a class="logo" href="#top">Puneet Divedi</a>
+      <a class="logo" href="#top">
+        <span class="logo-name">Puneet Divedi</span>
+        <span class="logo-role">Data Analyst</span>
+      </a>
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
@@ -35,12 +38,11 @@
   <main id="top">
     <section class="hero">
       <div class="hero-copy reveal">
-        <p class="eyebrow">Data Analyst | Business and Marketing Analytics</p>
-        <h1>Dashboards and KPI systems that turn messy data into decisions.</h1>
+        <p class="eyebrow">Business and Marketing Analytics</p>
+        <h1>Data tells a story. I make it visible, measurable, and actionable.</h1>
         <p class="lead">
-          Business-focused Data Analyst with 1+ year of experience in analytics, reporting, and dashboarding.
-          I translate unstructured business questions into analytical strategies using Python, SQL, Excel, and BI tools.
-          Strong in KPI development, automation, stakeholder communication, and performance measurement.
+          I enjoy visualizing data, generating insights, and building KPI-driven dashboards that explain what the data wants to say.
+          I automate workflows with Python and SQL so teams can move faster with confidence.
         </p>
         <div class="hero-actions">
           <a class="btn primary" href="mailto:sd9501242@gmail.com">Hire Puneet</a>
@@ -54,19 +56,22 @@
       </div>
       <div class="hero-panel reveal">
         <div class="panel-card">
-          <p class="panel-title">Impact snapshot</p>
+          <div class="panel-head">
+            <p class="panel-title">Live KPI Board</p>
+            <span class="panel-badge">Auto-updated</span>
+          </div>
           <div class="panel-metrics">
             <div>
-              <p class="metric-value" data-count="40">0</p>
+              <p class="metric-value" data-count="40" data-unit="%">0</p>
               <p class="metric-label">Manual effort reduced</p>
             </div>
             <div>
-              <p class="metric-value" data-count="12">0</p>
+              <p class="metric-value" data-count="12" data-unit="">0</p>
               <p class="metric-label">KPIs tracked weekly</p>
             </div>
             <div>
-              <p class="metric-value" data-count="3">0</p>
-              <p class="metric-label">Dashboards delivered</p>
+              <p class="metric-value" data-count="3" data-unit="">0</p>
+              <p class="metric-label">Dashboards shipped</p>
             </div>
           </div>
           <div class="mini-chart" aria-hidden="true">
@@ -77,13 +82,22 @@
             <span style="height: 55%"></span>
           </div>
         </div>
-        <div class="panel-card subtle">
-          <p class="panel-title">Focus areas</p>
-          <div class="pill-row">
-            <span>Marketing analytics</span>
-            <span>Digital media performance</span>
-            <span>Customer behavior</span>
-            <span>Automation</span>
+        <div class="panel-grid">
+          <div class="panel-card subtle">
+            <p class="panel-title">Focus areas</p>
+            <div class="pill-row">
+              <span>Marketing analytics</span>
+              <span>Digital media</span>
+              <span>Customer behavior</span>
+              <span>Automation</span>
+            </div>
+          </div>
+          <div class="panel-card subtle">
+            <p class="panel-title">Signal health</p>
+            <div class="sparkline" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <p class="panel-foot">Clean data + clear KPIs = faster decisions.</p>
           </div>
         </div>
       </div>
@@ -92,10 +106,10 @@
     <section id="about" class="section reveal">
       <div class="section-head">
         <p class="eyebrow">About</p>
-        <h2>Business-first analytics with a bias for clarity.</h2>
+        <h2>I turn data into a narrative teams can act on.</h2>
         <p>
-          I help teams move faster by aligning KPIs to business goals, automating reporting, and
-          explaining insights in plain language. I care about decision quality, not just dashboards.
+          My approach blends insight generation with crisp storytelling: identify the signal, design the KPI,
+          then build dashboards that let the data speak for itself.
         </p>
       </div>
       <div class="highlight-grid">
