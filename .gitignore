@@ -1,0 +1,16 @@
+# ---- Node (if tooling is added) ----
+node_modules/
+dist/
+build/
+
+# ---- Env / secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

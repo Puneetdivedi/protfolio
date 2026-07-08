@@ -1,8 +1,8 @@
-# Puneet Divedi — Data Analyst Portfolio
+# Puneet Divedi â€“ Data Analyst Portfolio
 
-Live site: https://puneetdivedi.github.io/protfolio/
+ðŸ”— **Live site:** https://puneetdivedi.github.io/portfolio/
 
-## What’s inside
+## What's inside
 - Modern interactive single-page portfolio
 - Project filters and KPI counters
 - Clean, business-first analytics storytelling
