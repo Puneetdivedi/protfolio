@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://puneetdivedi.github.io/portfolio/sitemap.xml
